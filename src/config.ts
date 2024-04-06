@@ -4,7 +4,7 @@
 export const SITE_TITLE = "格物";
 export const SITE_DESCRIPTION =
   "穷究方法，服务生活";
-// export const TWITTER_HANDLE = "@gewu";
+export const TWITTER_HANDLE = "@gewu";
 export const MY_NAME = "gewu";
 
 // setup in astro.config.mjs
