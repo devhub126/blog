@@ -5,22 +5,21 @@ import Intro from "../components/Intro.astro";
 import AboutTheTheme from "../components/AboutTheTheme.astro";
 import { SITE_TITLE } from "../config";
 
-import { createClient } from '@supabase/supabase-js'
-const supabaseUrl = 'https://pvdswhuwvuszfoxllyme.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB2ZHN3aHV3dnVzemZveGxseW1lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTI1Nzk0NTcsImV4cCI6MjAyODE1NTQ1N30.UrTi3HWYSQVmsHbJrK8pRbi_DcHKuykXNBwSd8Gy7Wc'
-const supabase = createClient(supabaseUrl, supabaseKey)
-let { data } = await supabase
-    .from('search-author')
-    .select('*')
-
-console.log('hi')
-console.log(JSON.stringify(data))
+// import { createClient } from '@supabase/supabase-js'
+// const supabaseUrl = 'https://pvdswhuwvuszfoxllyme.supabase.co'
+// const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB2ZHN3aHV3dnVzemZveGxseW1lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTI1Nzk0NTcsImV4cCI6MjAyODE1NTQ1N30.UrTi3HWYSQVmsHbJrK8pRbi_DcHKuykXNBwSd8Gy7Wc'
+// const supabase = createClient(supabaseUrl, supabaseKey)
+// let { data } = await supabase
+//     .from('search-author')
+//     .select('*')
+//
+// console.log('hi')
+// console.log(JSON.stringify(data))
 ---
 
 <PageLayout>
   <PageMeta title={`${SITE_TITLE} | 首页`} slot="meta" />
   <Fragment slot="main">
-    {JSON.stringify(data)}
     <Intro />
     <!--<AboutTheTheme />-->
   </Fragment>
