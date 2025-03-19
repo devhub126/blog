@@ -1,0 +1,37 @@
+{
+  "site": {
+    "title": "猎犬",
+    "base_url": "https://gewu.dev",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "38",
+    "logo_text": "猎犬-你得文本搜索专家"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200
+  },
+
+  "nav_button": {
+    "enable": false,
+    "label": "下载",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "https://api.deepsec.ai/contact",
+    "tag_manager_id": "",
+    "footer_content": "DeepSec - 企业级AI安全解决方案提供商",
+    "copyright": "© 2025 GeWu. All rights reserved."
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "astro boilerplate"
+  }
+}
