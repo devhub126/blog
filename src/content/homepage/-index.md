@@ -1,6 +1,6 @@
 ---
 banner:
-  title: 猎犬 - 您的文本搜索专家
+  title: 猎犬 - 你的文本搜索专家
   content: 快速、友好的桌面文本搜索软件
   image: "/images/banner.png"
   button:
