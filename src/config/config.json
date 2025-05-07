@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "猎犬-你得文本搜索专家",
+    "title": "猎犬-你的文本搜索专家",
     "base_url": "https://gewu.dev",
     "base_path": "/",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "38",
-    "logo_text": "猎犬-你得文本搜索专家"
+    "logo_text": "猎犬-你的文本搜索专家"
   },
 
   "settings": {
