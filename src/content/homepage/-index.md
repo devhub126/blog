@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "立即下载"
-    link: "/download"
+    link: "https://pan.baidu.com/s/1VhTmT4mO_nLA7wgHtPh1tw?pwd=1a2b"
   secondary_button:
     enable: true
     label: "了解更多"
@@ -85,12 +85,12 @@ workflow:
 # call_to_action
 call_to_action:
   title: 立即下载猎犬，体验高效搜索
-  content: 支持 Windows/macOS/Linux 多平台，免费试用30天
+  content: 支持 Windows平台
   image: "/images/banner.png"
   button:
     enable: true
     label: "Windows 版下载"
-    link: "/download/windows"
+    link: "https://pan.baidu.com/s/1VhTmT4mO_nLA7wgHtPh1tw?pwd=1a2b"
   mac_button:
     enable: true
     label: "macOS 版下载"
