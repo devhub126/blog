@@ -28,7 +28,12 @@ feature:
     - name: "OCR识别"
       icon: "/images/love.svg"
       content: "支持20+语言图片文字提取"
-
+    - name: "文本预览"
+      icon: "/images/love.svg"
+      content: "支持文件文本提取"
+    - name: "文本定位"
+      icon: "/images/love.svg"
+      content: "支持文件文本的搜索关键词定位"
 # services
 services:
   - title: "支持全格式搜索"
