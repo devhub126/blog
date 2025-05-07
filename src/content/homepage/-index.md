@@ -18,7 +18,7 @@ feature:
   features:
     - name: "多格式支持"
       icon: "/images/love.svg"
-      content: "支持 PDF/DOCX/ZIP/JPG 等50+文件格式"
+      content: "支持 PDF/DOCX/ZIP/JPG 等30+文件格式"
     - name: "准实时搜索"
       icon: "/images/love.svg"
       content: "无需索引，秒级响应速度"
@@ -32,7 +32,7 @@ feature:
 # services
 services:
   - title: "支持全格式搜索"
-    content: "直接搜索50+文件格式内容，包括PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字"
+    content: "直接搜索30+文件格式内容，包括PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字"
     images:
       - "/images/压缩文件格式.png"
 
