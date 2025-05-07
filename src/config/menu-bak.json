@@ -5,6 +5,14 @@
       "url": "/"
     },
     {
+      "name": "博客",
+      "url": "/blog"
+    },
+    {
+      "name": "联系我们",
+      "url": "/contact"
+    },
+    {
       "name": "常见问题",
       "url": "/faq"
     }
