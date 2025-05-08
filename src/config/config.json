@@ -30,8 +30,9 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "gewu",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro boilerplate"
+    "meta_keywords": "pdf文本搜索 doc文本搜索 docx文本搜索 ppt文本搜索 pptx文本搜索 xls文本搜索 xlsx文本搜索 txt文本搜索 zip文本搜索 rar文本搜索 zz文本搜索 xml文本搜索 markdown文本搜索 java文本搜索 sql文本搜索 xmind文本搜索 json文本搜索 svg文本搜索 vsdx文本搜索 dwg文本搜索 epub文本搜索 mobi文本搜索 azw3文本搜索 jpg文本搜索 png文本搜索 jpeg文本搜索 gif文本搜索 bmp文本搜索 tiff文本搜索 webp文本搜索",
+    "meta_description": "快速、友好的桌面文本搜索软件"
   }
 }
