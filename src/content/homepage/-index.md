@@ -46,7 +46,7 @@ services:
     images:
       - "/images/banner.png"
 
-  - title: "智能结果导出"
+  - title: "搜索结果导出"
     content: "一键导出搜索结果为doc格式，保留文件路径、匹配内容等元数据"
     images:
       - "/images/下载报告.png"
@@ -56,7 +56,7 @@ services:
     images:
       - "/images/cta.png"
 
-  - title: "支持文件文本预览及关键词定位"
+  - title: "文件文本预览及关键词定位"
     content: "阅读级别的文本预览，提供关键词定位服务"
     images:
       - "/images/文件内搜索词定位.png"
@@ -69,9 +69,9 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: 立即下载猎犬，体验高效搜索
+  title: 使用猎犬，体验高效搜索
   content: 支持 Windows平台
-  image: "/images/banner.png"
+  image: "/images/banner-art.png"
   button:
     enable: true
     label: "Windows 版下载"
