@@ -37,7 +37,7 @@ feature:
 # services
 services:
   - title: "支持全格式搜索"
-    content: "直接搜索30+文件格式内容，包括PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字"
+    content: "直接搜索30+文件格式内容，包括PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字；支持的格式包含：pdf doc docx ppt pptx xls xlsx txt zip rar zz xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 jpg png jpeg gif bmp tiff webp等"
     images:
       - "/images/压缩文件格式.png"
 
