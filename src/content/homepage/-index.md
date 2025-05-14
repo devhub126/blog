@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "立即下载"
-    link: "https://www.123912.com/s/2pqkTd-L6eHH"
+    link: "https://www.123912.com/s/2pqkTd-13tHH"
   secondary_button:
     enable: true
     label: "了解更多"
@@ -75,6 +75,6 @@ call_to_action:
   button:
     enable: true
     label: "Windows 版下载"
-    link: "https://www.123912.com/s/2pqkTd-L6eHH"
+    link: "https://www.123912.com/s/2pqkTd-13tHH"
 
 ---
