@@ -1,0 +1,59 @@
+---
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const entry = (await getEntry("updateinfo", "-index")) as CollectionEntry<"updateinfo">;
+const { title, description, infos } = entry.data;
+---
+
+<Base title={title} description={description}>
+  <section class="section">
+    <div class="container">
+      <h1 class="text-center font-normal" set:html={markdownify(title)} />
+      <!-- 日志列表容器 -->
+      <div
+        class="space-y-8 relative before:absolute before:top-0 before:left-8 before:w-px before:h-full before:bg-gray-200 mt-6">
+        {
+          infos?.map((info) => (
+            <div class="relative pl-16 group">
+              <!-- 时间线圆点 -->
+              <div class="absolute left-0 top-1 flex items-center justify-center w-16">
+                <div class="h-2.5 w-2.5 bg-blue-600 rounded-full ring-4 ring-blue-600/20"></div>
+              </div>
+
+              <!-- 日志卡片 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <!-- 版本号 -->
+                <div class="flex justify-between items-center mb-4">
+                  <h2 class="text-lg font-semibold text-gray-900" set:html={markdownify(info.title)} />
+                  <span class="text-sm text-gray-500" set:html={markdownify(info.date)} />
+                </div>
+
+                <!-- 标签 -->
+                <div class="flex gap-2 mb-4">
+                  {
+                    info.tags?.map((tag) => (
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded-full"
+                            set:html={markdownify(tag)} />
+                    ))
+                  }
+                </div>
+
+                <!-- 更新内容 -->
+                <ul class="list-disc list-outside space-y-2 pl-5 text-gray-600">
+                   {
+                    info.content?.map((ct) => (
+                      <li set:html={markdownify(ct)} />
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

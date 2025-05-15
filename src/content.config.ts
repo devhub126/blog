@@ -125,6 +125,25 @@ const pricingCollection = defineCollection({
   }),
 });
 
+
+// updateinfo collection schema
+const updateInfoCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/updateinfo" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    draft: z.boolean(),
+    infos: z.array(
+      z.object({
+        title: z.string(),
+        date: z.string(),
+        tags: z.array(z.string()),
+        content:z.array(z.string())
+      }),
+    ),
+  }),
+});
+
 // FAQ collection schema
 const faqCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/faq" }),
@@ -177,4 +196,5 @@ export const collections = {
   contact: contactCollection,
   pricing: pricingCollection,
   faq: faqCollection,
+  updateinfo: updateInfoCollection
 };

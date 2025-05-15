@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "更新记录",
+      "url": "/updateInfo"
+    },
+    {
       "name": "常见问题",
       "url": "/faq"
     }
