@@ -1,5 +1,5 @@
 ---
-title: 更新记录
+title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
