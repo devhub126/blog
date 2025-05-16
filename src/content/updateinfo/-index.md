@@ -3,6 +3,10 @@ title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
+  - title: v1.0.0.4
+    date: "2025-05-16"
+    tags: ["优化"]
+    content: ["大幅度提升搜索速度，降低系统资源占用","大幅度优化界面"] 
   - title: v1.0.0.3
     date: "2025-05-15"
     tags: ["优化"]
