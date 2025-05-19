@@ -1,7 +1,7 @@
 ---
 banner:
   title: 猎犬 - 你的文本搜索专家
-  content: 快速、友好的桌面文本搜索软件
+  content: 快速、友好的桌面文本搜索软件,没有烦人的索引服务，没有联网操作，可靠安全！
 
   button:
     enable: true
