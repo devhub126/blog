@@ -3,6 +3,10 @@ title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
+  - title: v1.0.0.5
+    date: "2025-05-19"
+    tags: ["优化","UI"]
+    content: ["增加稳定性","增加明暗主题","解决软件关闭不完全的问题"] 
   - title: v1.0.0.4
     date: "2025-05-16"
     tags: ["优化"]
