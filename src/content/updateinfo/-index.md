@@ -3,6 +3,10 @@ title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
+  - title: v1.0.0.6
+    date: "2025-05-21"
+    tags: ["优化","UI"]
+    content: ["先好看","先好看","先好看"] 
   - title: v1.0.0.5
     date: "2025-05-19"
     tags: ["优化","UI"]
