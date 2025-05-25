@@ -18,7 +18,7 @@ feature:
   features:
     - name: "多格式支持"
       icon: "/images/love.svg"
-      content: "支持 CAJ/PDF/DOCX/ZIP/JPG 等30+文件格式"
+      content: "支持 CAJ/PDF/DOCX/ZIP/JPG 等30+文件格式，并且可能是首个支持CAJ格式搜索功能的搜索软件"
     - name: "准实时搜索"
       icon: "/images/love.svg"
       content: "无需索引，秒级响应速度"
@@ -37,7 +37,7 @@ feature:
 # services
 services:
   - title: "支持全格式搜索"
-    content: "直接搜索30+文件格式内容，包括PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字；支持的格式包含：caj pdf doc docx ppt pptx xls xlsx txt zip rar 7z xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 jpg png jpeg gif bmp tiff webp等"
+    content: "直接搜索30+文件格式内容，包括CAJ、PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字；支持的格式包含：caj pdf doc docx ppt pptx xls xlsx txt zip rar 7z xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 jpg png jpeg gif bmp tiff webp等"
     images:
       - "/images/压缩文件格式.png"
 
