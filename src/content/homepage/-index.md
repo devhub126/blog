@@ -18,7 +18,7 @@ feature:
   features:
     - name: "多格式支持"
       icon: "/images/love.svg"
-      content: "支持 CAJ/PDF/DOCX/ZIP/JPG 等30+文件格式，并且可能是首个支持CAJ格式搜索功能的搜索软件"
+      content: "支持 CAJ/PDF/DOCX/ZIP/JPG 等30+文件格式"
     - name: "准实时搜索"
       icon: "/images/love.svg"
       content: "无需索引，秒级响应速度"
@@ -39,12 +39,17 @@ services:
   - title: "支持全格式搜索"
     content: "直接搜索30+文件格式内容，包括CAJ、PDF、DOCX等文档，ZIP压缩包，JPG/PNG图片中的文字；支持的格式包含：caj pdf doc docx ppt pptx xls xlsx txt zip rar 7z xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 jpg png jpeg gif bmp tiff webp等"
     images:
-      - "/images/压缩文件格式.png"
+      - "/images/主窗口-格式支持.png"
 
   - title: "准实时搜索体验"
     content: "无需建立索引，系统资源占用率低"
     images:
-      - "/images/banner.png"
+      - "/images/主窗口-搜索进度统计.png"
+      
+  - title: "界面简洁"
+    content: "无需学习，直接上手"
+    images:
+      - "/images/多主题.png"
 
   - title: "搜索结果导出"
     content: "一键导出搜索结果为doc格式，保留文件路径、匹配内容等元数据"
@@ -59,7 +64,7 @@ services:
   - title: "文件文本预览及关键词定位"
     content: "阅读级别的文本预览，提供关键词定位服务"
     images:
-      - "/images/文件内搜索词定位.png"
+      - "/images/主窗口-文本预览关键词导航.png"
 
 
 # workflow
