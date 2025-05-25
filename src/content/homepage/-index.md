@@ -75,8 +75,8 @@ workflow:
 # call_to_action
 call_to_action:
   title: 使用猎犬，体验高效搜索
-  content: 支持 Windows平台
-  image: "/images/banner-art.png"
+  content: 你的文本搜索专家
+  image: "/images/主窗口-搜索.png"
   button:
     enable: true
     label: "Windows 版下载"
