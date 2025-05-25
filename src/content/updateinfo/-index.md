@@ -3,6 +3,10 @@ title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
+  - title: v1.0.0.7
+    date: "2025-05-25"
+    tags: ["优化"]
+    content: ["支持CAJ格式搜索","实现可以启动多个","解决关闭资源释放问题"] 
   - title: v1.0.0.6
     date: "2025-05-21"
     tags: ["优化","UI"]
