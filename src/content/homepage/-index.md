@@ -49,7 +49,7 @@ services:
   - title: "界面简洁"
     content: "无需学习，直接上手"
     images:
-      - "/images/多主题.png"
+      - "/images/主界面.png"
 
   - title: "搜索结果导出"
     content: "一键导出搜索结果为doc格式，保留文件路径、匹配内容等元数据"
