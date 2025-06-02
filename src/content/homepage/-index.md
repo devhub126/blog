@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "立即下载"
-    link: "https://www.123912.com/s/2pqkTd-igtHH"
+    link: "https://www.123912.com/s/2pqkTd-ADtHH"
   secondary_button:
     enable: true
     label: "了解更多"
@@ -37,7 +37,7 @@ feature:
 # services
 services:
   - title: "支持全格式搜索"
-    content: "直接搜索20+文件格式内容，包括CAJ、PDF、DOCX等文档；支持的格式包含：caj pdf doc docx ppt pptx xls xlsx txt  xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 等"
+    content: "直接搜索60+文件格式内容，包括CAJ、PDF、DOCX等文档；支持的格式包含：caj pdf doc docx ppt pptx xls xlsx txt  xml markdown java sql xmind json svg vsdx dwg epub mobi azw3 等"
     images:
       - "/images/主窗口-格式支持.png"
 
@@ -71,10 +71,10 @@ workflow:
 call_to_action:
   title: 使用猎犬，体验高效搜索
   content: 你的文本搜索专家
-  image: "/images/主窗口-搜索.png"
+  image: "/images/x.png"
   button:
     enable: true
     label: "Windows 版下载"
-    link: "https://www.123912.com/s/2pqkTd-igtHH"
+    link: "https://www.123912.com/s/2pqkTd-ADtHH"
 
 ---

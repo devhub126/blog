@@ -3,6 +3,10 @@ title: 猎犬 -更新记录
 description: "更新记录"
 draft: false
 infos:
+  - title: v1.0.0.9
+    date: "2025-06-02"
+    tags: ["功能","性能","UI"]
+    content: ["增加了40+格式支持","加快10%左右的性能","优化界面显示"] 
   - title: v1.0.0.8
     date: "2025-05-26"
     tags: ["优化","UI","减负"]
