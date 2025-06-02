@@ -18,7 +18,7 @@ feature:
   features:
     - name: "多格式支持"
       icon: "/images/love.svg"
-      content: "支持 CAJ/PDF/DOCX/EPUB 等20+文件格式"
+      content: "支持 CAJ/PDF/DOCX/EPUB 等60+文件格式"
     - name: "准实时搜索"
       icon: "/images/love.svg"
       content: "无需索引，秒级响应速度"
