@@ -71,7 +71,7 @@ workflow:
 call_to_action:
   title: 使用猎犬，体验高效搜索
   content: 你的文本搜索专家
-  image: "/images/x.png"
+  image: "/images/xy.png"
   button:
     enable: true
     label: "Windows 版下载"
