@@ -1,6 +1,6 @@
 ---
 title: 猎犬 -更新记录
-description: "更新记录"
+description: "-更新记录-"
 draft: false
 infos:
   - title: v1.0.0.12
